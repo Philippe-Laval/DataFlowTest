@@ -7,5 +7,17 @@ public class DataflowExecutionBlocksTest
     {
         DataflowExecutionBlocks.Run();
     }
+
+    [Fact]
+    public void TestRunAsync1()
+    {
+        DataflowExecutionBlocksAsync1.Run();
+    }
+
+    [Fact]
+    public void TestRunAsync2()
+    {
+        DataflowExecutionBlocksAsync2.Run();
+    }
 }
 
