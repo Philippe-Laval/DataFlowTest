@@ -86,6 +86,9 @@ public static class DataflowReversedWords
         // exists in the collection.
         var findReversedWords = new TransformManyBlock<string[], string>(words =>
         {
+            // Since we use TransformManyBlock, this block will call several time the next block
+            // with each word found a the parallel query
+
             Console.WriteLine("Finding reversed words...");
 
             try
@@ -128,6 +131,7 @@ public static class DataflowReversedWords
         // Mark the head of the pipeline as complete.
         downloadString.Complete();
 
-        downloadString.Completion.Wait();
+        // Wait for the last block in the pipeline to process all messages.
+        printReversedWords.Completion.Wait();
     }
 }
