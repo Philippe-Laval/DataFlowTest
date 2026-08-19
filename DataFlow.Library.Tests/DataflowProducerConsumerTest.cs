@@ -3,9 +3,9 @@
     public class DataflowProducerConsumerTest
     {
         [Fact]
-        public void TestMethod1()
+        public async Task TestRun()
         {
-            Tutorial.Method1();
+            await DataflowProducerConsumer.Run();
         }
     }
 }
