@@ -1,11 +1,11 @@
-﻿namespace DataFlow.Library.Tests
+﻿namespace DataFlow.Library.Tests;
+
+public class DataflowProducerConsumerTest
 {
-    public class DataflowProducerConsumerTest
+    [Fact]
+    public async Task TestRun()
     {
-        [Fact]
-        public async Task TestRun()
-        {
-            await DataflowProducerConsumer.Run();
-        }
+        await DataflowProducerConsumer.Run();
     }
 }
+
