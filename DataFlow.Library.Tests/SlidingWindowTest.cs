@@ -1,11 +1,11 @@
 ﻿namespace DataFlow.Library.Tests;
 
-public class DataflowReceiveAnyTest
+public class SlidingWindowTest
 {
     [Fact]
     public void TestRun()
     {
-        DataflowReceiveAny.Run();
+        SlidingWindow.Run();
     }
 }
 
