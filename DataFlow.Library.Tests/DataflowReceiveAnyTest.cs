@@ -1,10 +1,11 @@
 ﻿namespace DataFlow.Library.Tests;
 
-public class DataflowReversedWordsTest
+public class DataflowReceiveAnyTest
 {
     [Fact]
     public void TestRun()
     {
-        DataflowReversedWords.Run();
+        DataflowReceiveAny.Run();
     }
 }
+
