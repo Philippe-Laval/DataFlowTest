@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="CancellationWinForms/CancellationWinForms.csproj" />
   <Project Path="CompositeImages/CompositeImages.csproj" />
   <Project Path="DataFlow.Library.Tests/DataFlow.Library.Tests.csproj" />
   <Project Path="DataFlowTest/DataFlow.Library.csproj" />
