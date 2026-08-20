@@ -2,6 +2,7 @@
   <Project Path="CancellationWinForms/CancellationWinForms.csproj" />
   <Project Path="CompositeImages/CompositeImages.csproj" />
   <Project Path="DataFlow.Library.Tests/DataFlow.Library.Tests.csproj" />
+  <Project Path="DataflowBatchDatabase/DataflowBatchDatabase.csproj" />
   <Project Path="DataFlowTest/DataFlow.Library.csproj" />
   <Project Path="WriterReadersWinForms/WriterReadersWinForms.csproj" />
 </Solution>
