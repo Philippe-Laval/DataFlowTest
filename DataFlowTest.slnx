@@ -3,4 +3,5 @@
   <Project Path="CompositeImages/CompositeImages.csproj" />
   <Project Path="DataFlow.Library.Tests/DataFlow.Library.Tests.csproj" />
   <Project Path="DataFlowTest/DataFlow.Library.csproj" />
+  <Project Path="WriterReadersWinForms/WriterReadersWinForms.csproj" />
 </Solution>
